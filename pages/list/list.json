@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "商铺列表",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

@@ -1,0 +1,69 @@
+<view class="messages">
+  <view class="item  messagesArr">
+    <view class='routea'>
+      <text class="title">内涵门票，超值放送</text>
+    </view>
+    <text class="date">123456</text>
+    <view class='routea'>
+      <image src="http://static.fafaapp.com/images/cms/2018/7/2/14/d3bff8de-f69f-497c-806d-bc604db3175c.jpg"/>
+    </view>
+    <text class="summary routea">最低谷的时刻就是人生的上升期</text>
+    <view class="expand routea">Read All</view>
+  </view>
+
+  <view class="item  messagesArr">
+    <view class='routea'>
+      <text class="title">内涵门票，超值放送</text>
+    </view>
+    <text class="date">123456</text>
+    <view class='routea'>
+      <image src="http://static.fafaapp.com/images/cms/2018/7/2/14/d3bff8de-f69f-497c-806d-bc604db3175c.jpg"/>
+    </view>
+    <text class="summary routea">最低谷的时刻就是人生的上升期</text>
+    <view class="expand routea">Read All</view>
+  </view>
+
+  <view class="item  messagesArr">
+    <view class='routea'>
+      <text class="title">内涵门票，超值放送</text>
+    </view>
+    <text class="date">123456</text>
+    <view class='routea'>
+      <image src="http://static.fafaapp.com/images/cms/2018/7/2/14/d3bff8de-f69f-497c-806d-bc604db3175c.jpg"/>
+    </view>
+    <text class="summary routea">最低谷的时刻就是人生的上升期</text>
+    <view class="expand routea">Read All</view>
+  </view>
+
+   <view class="item  messagesArr">
+    <view class='routea'>
+      <text class="title">内涵门票，超值放送</text>
+    </view>
+    <text class="date">123456</text>
+    <view class='routea'>
+      <image src="http://static.fafaapp.com/images/cms/2018/7/2/14/d3bff8de-f69f-497c-806d-bc604db3175c.jpg"/>
+    </view>
+    <text class="summary routea">最低谷的时刻就是人生的上升期</text>
+    <view class="expand routea">Read All</view>
+  </view>
+  
+   <view class="item  messagesArr">
+    <view class='routea'>
+      <text class="title">内涵门票，超值放送</text>
+    </view>
+    <text class="date">123456</text>
+    <view class='routea'>
+      <image src="http://static.fafaapp.com/images/cms/2018/7/2/14/d3bff8de-f69f-497c-806d-bc604db3175c.jpg"/>
+    </view>
+    <text class="summary routea">最低谷的时刻就是人生的上升期</text>
+    <view class="expand routea">Read All</view>
+  </view>
+  
+</view>
+
+
+
+
+
+
+<view id="bottom"></view>

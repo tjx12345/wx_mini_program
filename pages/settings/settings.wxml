@@ -1,0 +1,19 @@
+
+<view>
+  <form bindsubmit='addShop'>
+    <input placeholder='店铺名' bindinput='valueHandler' data-type="name" value="{{name}}" name="name"/>
+    <input placeholder='电话' bindinput='valueHandler' data-type="phone" value="{{phone}}" name="phone"/>
+    <view bindtap='chooseLocation'>
+      <image src="../../assets/imgs/location.png" class='img' style="width:40rpx;height:40rpx;"></image>
+      <input type="text" placeholder='地址' disabled value="{{address}}" name="address"/>
+    </view>
+    <picker range='{{categories}}' range-key='name' bindchange='saveType' name="shopType">
+      <view>
+        <text>店铺类型:{{shopType}}</text>
+      </view>
+    </picker>
+
+
+    <button type="primary" form-type='submit'>提交</button>
+  </form>
+</view>

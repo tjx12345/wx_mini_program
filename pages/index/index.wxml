@@ -1,0 +1,15 @@
+<view>
+  <swiper class="slides" autoplay circular>
+           <swiper-item class="messagesArr" wx:for="{{swiperImgs}}" wx:key="{{index}}">
+                  <image src="{{item.image}}"></image>    
+          </swiper-item>
+  </swiper>
+
+  <view class='grids'>
+       <navigator class='item messagesArr' wx:for="{{categories}}" wx:key="{{item.id}}" url="/pages/list/list?cid={{item.id}}">
+         <image src="{{item.icon}}"></image>
+          <text>{{item.name}}</text>
+     </navigator>  
+  </view>
+1
+</view>

@@ -1,0 +1,40 @@
+<swiper class="slides" indicator-color="#bcc0c9" indicator-active-color="#3a4861" indicator-dots>
+  <swiper-item wx:for="{{shop.images}}">
+    <image src="{{item}}"/>
+  </swiper-item>
+</swiper>
+
+<view class="heading" >
+  <text class="name">{{shop.name}}</text>
+  <text class="phone">电话：{{shop.phone}}</text>
+  <text class="address">地址：{{shop.address}}</text>
+  <text class="hours">营业时间：{{shop.businessHours}}</text>
+  <view >{{shop.score}}</view>
+</view>
+
+<view class="introduction">
+  <text>描述:{{shop.introduction}}</text>
+</view>
+
+<view class="comments" wx:for="{{shop.comments}}">
+  <view class="item" >
+    <text class="name">{{item.name}}</text>
+    <text class="date">{{item.data}}</text>
+    <view class='star-box'>
+         <view >★★★★★</view> 
+         <view class="star-after" style="width:{{item.rating}}">★★★★★</view>
+    </view>
+  
+    <text class="content">{{item.content}}</text>
+    <view class="images" >
+      <image wx:for="{{item.images}}" src="{{tools(item)}}" bindtap='showPreview' data-url="{{tools(item)}}"/>
+    </view>
+  </view>
+</view>
+
+<wxs module="tools">
+  module.exports = function(url) {
+    return url.replace('w.h','200.200');
+  }
+</wxs>
+

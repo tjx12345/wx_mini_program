@@ -1,0 +1,65 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.2",
+	"appid": "wx93e2bafc07fd4fb1",
+	"projectname": "test123",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "list",
+					"pathName": "pages/list/list",
+					"query": "cid=9"
+				},
+				{
+					"id": 1,
+					"name": "list",
+					"pathName": "pages/list/list",
+					"query": "cid=9"
+				},
+				{
+					"id": -1,
+					"name": "detail",
+					"pathName": "pages/detail/detail",
+					"query": "shopid=1"
+				},
+				{
+					"id": -1,
+					"name": "add",
+					"pathName": "pages/settings/settings",
+					"query": ""
+				}
+			]
+		}
+	}
+}
